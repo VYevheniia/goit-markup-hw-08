@@ -32,6 +32,10 @@
       flex-basis: calc((100% - 30px) / 2);
     }
 
+    @media (min-width: 480px) and (max-width: 767px) {
+      flex-basis: calc((100% - 30px) / 2);
+    }
+
     @media (min-width: 768px) and (max-width: 1199px) {
       flex-basis: calc((100% - 60px) / 3);
     }

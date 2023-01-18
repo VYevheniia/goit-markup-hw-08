@@ -33,6 +33,11 @@
     width: 100%;
     max-height: 609px;
   }
+
+  @media (min-width: 480px) and (max-width: 767px) {
+    width: 100%;
+    max-height: 609px;
+  }
 }
 
 .backdrop.is-hidden {
@@ -176,6 +181,13 @@
     padding-left: 18px;
     padding-top: 2px;
   }
+
+  @media (min-width: 480px) and (max-width: 767px) {
+    font-size: 12px;
+    line-height: 1.6;
+    padding-left: 18px;
+    padding-top: 2px;
+  }
 }
 
 .checkbox__input {
@@ -189,6 +201,10 @@
   margin: 4px 7px 0 0;
 
   @media (max-width: 479px) {
+    margin: 4px 7px 0 -8px;
+  }
+
+  @media (min-width: 480px) and (max-width: 767px) {
     margin: 4px 7px 0 -8px;
   }
 

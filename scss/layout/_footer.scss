@@ -20,6 +20,7 @@
     @media (min-width: 1200px) {
       display: flex;
       align-items: baseline;
+      text-align: inherit;
     }
   }
 
@@ -114,6 +115,11 @@
     padding: 15px 0 15px 16px;
 
     @media (max-width: 479px) {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+
+    @media (min-width: 480px) and (max-width: 767px) {
       width: 100%;
       margin-bottom: 20px;
     }
