@@ -13,13 +13,10 @@
       gap: 30px;
     }
 
-    // display: flex;
-    // justify-content: center;
     gap: 30px;
   }
 
   &__card {
-    // width: 354px;
     flex-basis: calc((100% - 30px) / 2);
 
     @media (min-width: 1200px) {
