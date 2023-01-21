@@ -451,6 +451,7 @@ a {
 .hero {
   background-color: var(--color-around-black-bgc);
   padding: 118px 0;
+  max-width: 1600px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -489,7 +490,6 @@ a {
 }
 @media (min-width: 1200px) {
   .hero {
-    width: 1600px;
     padding: 200px 0;
   }
 }

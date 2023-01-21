@@ -2,7 +2,7 @@
   background-color: var(--color-around-black-bgc);
 
   padding: 118px 0;
-  // height: 600px;
+  max-width: 1600px;
   width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -39,7 +39,7 @@
   }
 
   @media (min-width: 1200px) {
-    width: 1600px;
+    // width: 1600px;
     padding: 200px 0;
   }
 
