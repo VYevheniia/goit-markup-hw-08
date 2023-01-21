@@ -11,25 +11,32 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  @media screen and (max-width: 767px) and (min-device-pixel-ratio: 2), screen and (max-width: 768px) and (min-resolution: 192dpi), screen and (max-width: 768px) and (min-resolution: 2dppx) {
+  @media screen and (min-width: 480px) and (max-width: 767px) and (min-device-pixel-ratio: 2),
+    screen and (min-width: 480px) and (max-width: 767px) and (min-resolution: 192dpi),
+    screen and (min-width: 480px) and (max-width: 767px) and (min-resolution: 2dppx) {
+    width: 480px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/people_mobile@2x.jpg');
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/people_tablet.jpg');
   }
 
   @media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2),
     screen and (min-width: 769px) and (max-width: 1199px) and (min-resolution: 192dpi),
     screen and (min-width: 769px) and (max-width: 1199px) and (min-resolution: 2dppx) {
+    width: 768px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/people_tablet@2x.jpg');
   }
 
   @media screen and (min-width: 1200px) {
+    width: 1200px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/people.jpg');
   }
 
   @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
+    width: 1200px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('../images/people@2x.jpg');
   }
 
@@ -38,10 +45,10 @@
     padding: 200px 0;
   }
 
-  @media (max-width: 479px) {
-    height: 400px;
-    width: 100%;
-  }
+  // @media (max-width: 479px) {
+  //   height: 400px;
+  //   width: 479px;
+  // }
 
   &__title {
     color: var(--color-additional);
